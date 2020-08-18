@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JS Calculator</title>
+  <link rel="stylesheet" href="./calc.css">
 </head>
 <body>
   <div class="calculator">
@@ -11,25 +12,26 @@
       <input type="text" class="display">
     </form>
     <div class="buttons">
-      <button type="button" class="btn function" data-num="/">/</button>
-      <button type="button" class="btn function" data-num="*">*</button>
-      <button type="button" class="btn function" data-num="-">-</button>
-      <button type="button" class="btn function" data-num="+">+</button>
-<!-- Input buttons -->
-      <button type="button" class="btn function" data-num="9">9</button>
-      <button type="button" class="btn function" data-num="8">8</button>
-      <button type="button" class="btn function" data-num="7">7</button>
-      <button type="button" class="btn function" data-num="6">6</button>
-      <button type="button" class="btn function" data-num="5">5</button>
-      <button type="button" class="btn function" data-num="4">4</button>
-      <button type="button" class="btn function" data-num="3">3</button>
-      <button type="button" class="btn function" data-num="2">2</button>
-      <button type="button" class="btn function" data-num="1">1</button>
-      <button type="button" class="btn function" data-num="0">0</button>
-      <button type="button" class="btn function" data-num=".">.</button>
-<!-- Action buttons -->
-      <button type="button" class="btn function" data-num="=">=</button>
-      <button type="button" class="btn function" data-num="C">C</button>
+      <!-- Operator buttons -->
+      <button type="button" class="btn btn-function" data-num="*">*</button>
+      <button type="button" class="btn btn-function" data-num="/">/</button>
+      <button type="button" class="btn btn-function" data-num="-">-</button>
+      <button type="button" class="btn btn-function" data-num="+">+</button>
+      <!-- Input buttons -->
+      <button type="button" class="btn btn-number" data-num="9">9</button>
+      <button type="button" class="btn btn-number" data-num="8">8</button>
+      <button type="button" class="btn btn-number" data-num="7">7</button>
+      <button type="button" class="btn btn-number" data-num="6">6</button>
+      <button type="button" class="btn btn-number" data-num="5">5</button>
+      <button type="button" class="btn btn-number" data-num="4">4</button>
+      <button type="button" class="btn btn-number" data-num="3">3</button>
+      <button type="button" class="btn btn-number" data-num="2">2</button>
+      <button type="button" class="btn btn-number" data-num="1">1</button>
+      <button type="button" class="btn btn-number" data-num="0">0</button>
+      <button type="button" class="btn btn-number" data-num=".">.</button>
+      <!-- Action buttons -->
+      <button type="button" class="btn btn-equal" data-num="=">=</button>
+      <button type="button" class="btn btn-cancel" data-num="AC">AC</button>
     </div>
   </div>
 </body>
